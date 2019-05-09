@@ -1,10 +1,10 @@
 //JavaScript Document
 
-$(document).ready(function(e){
-	document.addEventListener("deviceready",function(){
+$(document).ready(function (e){
+	document .addEventListener ("deviceready",function(){
 		
-$('#izquierda').on("swipeleft",function(){
-  navigator.notification. alert("Deslizo a la izquierda",function(){"Aplicacion ","Aceptar"});
+  $('#izquierda').on("swipeleft",function(){
+     navigator .notification. alert("Deslizo a la izquierda",function(){"Aplicacion ","Aceptar"});
 });
 
 $('#derecha').on("swiperight",function(){
@@ -18,10 +18,9 @@ $('#derecha').on("swiperight",function(){
 			case 2:
 			navigator.notification.vibrate(1000);
 			break;
-		}
-	},"Aplicacion ","Beep,Vibrar,Cancelar");
-			
+	}
+ },"Aplicacion ","Beep,Vibrar,Cancelar");
 });
 
-	},false); 
+ },false); 
 });
